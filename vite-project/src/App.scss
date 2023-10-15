@@ -1,0 +1,40 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$background: rgb(0, 0, 0);
+$background-color: rgb(244, 196, 196);
+$border-radius: 3px;
+$font-size: 20px;
+$font-family: Courier;
+$overflow: hidden;
+$margin: 20px;
+$overflow: hidden;
+$z-index: 10;
+$text-align: center;
+$color:black;
+$justify-content:center;
+
+  h1 {
+    background: $background;
+    border-radius: $border-radius;
+    font-family: $font-family;
+    font-size: $font-size;
+    text-align: $text-align;
+    justify-content: $justify-content;
+  }
+
+  .card {
+  overflow: $overflow;
+  margin: $margin;
+  overflow: $overflow;
+  z-index: $z-index;
+  border-radius: $border-radius;
+  background-color:$background-color;
+}
+
+  figcaption {
+background-color:$background-color;
+border-radius: $border-radius;
+font-size: $font-size;
+color:$color;
+text-align: center;
+}
